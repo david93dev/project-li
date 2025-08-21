@@ -1,5 +1,5 @@
 import CardStudent from "@/components/CardStudent";
-
+import david from "@/assets/david.png";
 
 
 const students = [
@@ -10,29 +10,10 @@ const students = [
     description: "Front End Developer",
     local: "Campina Grande, PB",
     age: 32,
-    image:
-      "https://www.pica-ai.com/_next/image/?url=https%3A%2F%2Fstatic.staticspic.com%2F_next%2Fstatic%2Fmedia%2FRectangle-2.1a85f280.jpg&w=640&q=75",
+    image: david,
+      
   },
-  {
-    id:2,
-    link: "/",
-    name: "Carlos Eduardo",
-    description: "Full Stack Developer",
-    local: "Rio de Janeiro, RJ",
-    age: 29,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO3N1LZjAz7Izqm842f-0MBm9lsOsbnLwq73gktCBv8h4lAqrG53TKegYdn1wERpVADF0&usqp=CAU",
-  },
-  {
-    id:3,
-    link: "/",
-    name: "Maria Clara",
-    description: "Full Stack Developer",
-    local: "Brasília, DF",
-    age: 22,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfdN7rgXQL5pWHLBxDSr5Uc-s-xu9mnJz1A&s",
-  },
+
 ];
 
 export default function Home() {
