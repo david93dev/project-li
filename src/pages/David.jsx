@@ -196,7 +196,7 @@ const David = () => {
                   Contato
                 </span>
               </h2>
-             <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-4">
+             <div className="flex flex-wrap justify-center items-center gap-4 mt-4">
                <div className="text-sm max-w-2xl text-center text-zinc-800 mt-4">
                 <a href="mailto:davidbatistacg@gmail.com">
                   <img src={gmail} alt="" className="w-8"/>
